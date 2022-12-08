@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(233, 160, 233);
+}
+.clockContainer {
+    background-color: rgb(21, 119, 119);
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 226px;
+}
+#point{
+        background-color: beige;
+        border: 0px solid beige;
+        width: 0px;
+        margin: 0px;
+        border-radius: 100px;
+
+}
+#second {
+    background-color: beige;
+    border: 6px solid beige;
+    border-radius: 50px;
+    width: 90px;
+    margin: 107px 101px;
+    transform-origin: left;
+    transform: rotate(0deg);
+}
+#hour {
+    background-color: beige;
+    border: 6px solid beige;
+    border-radius: 76px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+    transform-origin: left;
+    transform: rotate(0deg);
+}
+
+#minute {
+    background-color: beige;
+    border: 5px solid beige;
+    border-radius: 60px;
+    width: 70px;
+    margin: -115px 100px;
+    transform-origin: left;
+    transform: rotate(0deg);
+}
+
+

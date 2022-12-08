@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0px 0px;
+   
+}
+.logo img{
+    margin:5px 6px;
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 100px;
+}
+.background{
+    background-color: fuchsia;
+    background-size: cover;
+    background-blend-mode:darken;
+ }
+.stop{
+    display: flex;
+    justify-content: end;
+    text-align:end;
+    background-color: antiquewhite;
+}
+.stop li{
+   display: flex;
+   align-items: flex-end;
+   padding: 10px;
+}
+.stop li a{
+    color: black;
+}
+.stop li a:hover{
+    color: green;
+}
+button{
+    color: blue;
+    width: 115px;
+    height: 35px;
+
+}
+
+.child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+}
+.child1 img{
+    width: 250px;
+}
+.child2 img{
+    width: 250px;
+}
+.textfooter{
+    font-style: oblique;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: beige;
+    padding: 16px 3px;
+    background-color: fuchsia;
+    }
+.pedru{
+    border: 1px solid black;
+    margin: 10px;
+}
